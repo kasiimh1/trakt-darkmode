@@ -8,5 +8,4 @@ Let me know if i broke anything via the Issues tab
 
 Will update this if Trakt decides to break something in the future.
 
-
 ~ Kasim
