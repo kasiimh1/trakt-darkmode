@@ -4,7 +4,9 @@ Fully functional Dark Mode for Trakt.
 
 <img src="https://github.com/kasiimh1/Trakt-DarkMode/blob/master/Screenshot%202018-04-18%2019.14.49.png">
 
-Install ViolentMonkey and install with this URL - https://github.com/kasiimh1/Trakt-DarkMode/raw/master/Trakt%20Dark%20Mode.user.js
+Install ViolentMonkey - https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=en
+
+Install Trakt DarkMode script with this URL - https://github.com/kasiimh1/Trakt-DarkMode/raw/master/Trakt%20Dark%20Mode.user.js
 
 Let me know if i broke anything via the Issues tab
 
