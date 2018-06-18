@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Trakt DarkMode
 // @namespace    https://github.com/kasiimh1
-// @version      0.2
+// @version      0.3
 // @description  Dark themes > light themes, enjoy!
 // @author       Kasim Hussain
 // @match        https://trakt.tv/*
@@ -36,7 +36,7 @@ background-color: red !important;
 }
 
 .see-more-text, h4 a,div.trakt-icon-circle-right.fa, h3 a,season.toggle,.link,p a,.name
-color:white !important;{
+{
 color: #54C7FC !important;
 }
 
@@ -53,9 +53,10 @@ border-color: #222;
 border:0px !important;
 }
 
-h2.section,span.trakt-icon-time-play,span.main-title-sxe,a.titles-link,a.ignore, a.selected,.runtime,.elapsed,
-.percentage,.icon.trakt-icon-alarm,.feed-icon,.icon.trakt-icon-rss, h3, span.plays,label, .icon.trakt-icon-divider,
-icon .trakt-icon-calendar-add,.btn-list-subscribe,.count-text,.icon.trakt-icon-move{
+h2.section,span.trakt-icon-time-play,a.titles-link,a.ignore, a.selected,.runtime,.elapsed,
+.percentage,.icon.trakt-icon-alarm,.feed-icon,.icon.trakt-icon-rss, h3, span.plays,label,
+.icon.trakt-icon-divider,icon .trakt-icon-calendar-add,.btn-list-subscribe,.count-text,
+.icon.trakt-icon-move,.titles,.format-date{
 color: white !important;
 }
 
@@ -63,13 +64,21 @@ color: white !important;
 border-color: #222 !important;
 }
 
-.titles,.episode-stats.hidden-sm,
+.episode-stats.hidden-sm,
 .btn.btn-block.btn-summary.btn-collect,.btn.btn-block.btn-summary.btn-list,
 .btn.btn-block.btn-summary.btn-comment.new-comment-focus
 {
 background-color: #222 !important;
 color: white !important;
 }
+
+.username,.convert-date{
+color: green !important;
+}
+span.main-title-sxe{
+color: red !important;
+}
+
 
 `
 GM_addStyle(darkMode);
