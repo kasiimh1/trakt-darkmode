@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Trakt DarkMode
 // @namespace    https://github.com/kasiimh1
-// @version      0.1
+// @version      0.2
 // @description  Dark themes > light themes, enjoy!
 // @author       Kasim Hussain
 // @match        https://trakt.tv/*
@@ -61,6 +61,14 @@ color: white !important;
 
 .poster{
 border-color: #222 !important;
+}
+
+.titles,.episode-stats.hidden-sm,
+.btn.btn-block.btn-summary.btn-collect,.btn.btn-block.btn-summary.btn-list,
+.btn.btn-block.btn-summary.btn-comment.new-comment-focus
+{
+background-color: #222 !important;
+color: white !important;
 }
 
 `
