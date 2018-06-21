@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Trakt DarkMode
 // @namespace    https://github.com/kasiimh1
-// @version      0.3
+// @version      0.4
 // @description  Dark themes > light themes, enjoy!
 // @author       Kasim Hussain
 // @match        https://trakt.tv/*
@@ -16,19 +16,24 @@ var darkMode=`
 #progress-wrapper.watched,.comment-wrapper .list .subnav .wider .hidden-xs,.seasons,#recent-wrapper,
 .prev a, .next a,.prev.disabled a, .next.disabled a, .comment-wrapper,#history-items,#collection-items,
 #rating-items,section.container.list-rows,#user-comments,#network-user-wrapper, section,.tab.selected,
-.above-comment,.users-wrapper,#huckster-desktop-wrapper,.huckster-vip-info,.alert.alert-no-data, h4.character
+.above-comment,.users-wrapper,#huckster-desktop-wrapper,.huckster-vip-info,.alert.alert-no-data, h4.character,
+.episode-stats.hidden-sm,.btn.btn-block.btn-summary.btn-collect,.btn.btn-block.btn-summary.btn-list,
+.btn.btn-block.btn-summary.btn-comment.new-comment-focus,div.titles
 {
 color: white !important;
 background-color: #222 !important;
 }
 
+h2.section,span.trakt-icon-time-play,a.titles-link,a.ignore, a.selected,.runtime,.elapsed,
+.percentage,.icon.trakt-icon-alarm,.feed-icon,.icon.trakt-icon-rss, h3, span.plays,label,
+.icon.trakt-icon-divider,icon .trakt-icon-calendar-add,.btn-list-subscribe,.count-text,
+.icon.trakt-icon-move,.titles,.format-date,.unknown{
+color: white !important;
+}
+
 div.shade{
 display: none !important;
 }
-
-// fix 
-//.mCSB_draggerContainer
-
 
 .popup-video.one-liner.trailer
 {
@@ -53,32 +58,17 @@ border-color: #222;
 border:0px !important;
 }
 
-h2.section,span.trakt-icon-time-play,a.titles-link,a.ignore, a.selected,.runtime,.elapsed,
-.percentage,.icon.trakt-icon-alarm,.feed-icon,.icon.trakt-icon-rss, h3, span.plays,label,
-.icon.trakt-icon-divider,icon .trakt-icon-calendar-add,.btn-list-subscribe,.count-text,
-.icon.trakt-icon-move,.titles,.format-date{
-color: white !important;
-}
-
 .poster{
 border-color: #222 !important;
 }
 
-.episode-stats.hidden-sm,
-.btn.btn-block.btn-summary.btn-collect,.btn.btn-block.btn-summary.btn-list,
-.btn.btn-block.btn-summary.btn-comment.new-comment-focus
-{
-background-color: #222 !important;
-color: white !important;
-}
-
-.username,.convert-date{
+.username{
 color: green !important;
 }
-span.main-title-sxe{
-color: red !important;
-}
 
+div.fanart div.titles {
+background-color: rgba(34, 34, 34, 0.0) !important;
+}
 
 `
 GM_addStyle(darkMode);
