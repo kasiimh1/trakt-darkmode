@@ -1,6 +1,13 @@
 # Trakt-DarkMode
 
+# V0.6 
+
+Fixed: https://github.com/kasiimh1/trakt-darkmode/issues/2 i think? :D
+
 Fully functional Dark Mode for Trakt.
+<img src="https://github.com/kasiimh1/trakt-darkmode/blob/master/Screenshot%202020-11-29%20063149.png">
+
+## old version screenshots
 
 <img src="https://github.com/kasiimh1/Trakt-DarkMode/blob/master/Screenshot%202018-04-18%2019.14.49.png">
 <img src="https://github.com/kasiimh1/trakt-darkmode/blob/master/Screenshot%202018-06-21%2006.55.32.png">
