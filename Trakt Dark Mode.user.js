@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Trakt DarkMode
 // @namespace    https://github.com/kasiimh1
-// @version      0.6
+// @version      0.7
 // @description  Dark themes > light themes, enjoy!
 // @author       Kasim Hussain
 // @match        https://trakt.tv/*
@@ -15,7 +15,7 @@ var darkMode=`
 #info-wrapper,div.subnav-wrapper,#huckster-content-page,.subnav-wrapper,.interactions,
 #progress-wrapper.watched,.comment-wrapper .list .subnav .wider .hidden-xs,.seasons,#recent-wrapper,
 .prev a, .next a,.prev.disabled a,.next.disabled a,.comment-wrapper,#history-items,#collection-items,
-#rating-items,section.container.list-rows,#user-comments,#network-user-wrapper,section,.tab.selected,
+#rating-items,section.container.list-rows,#user-comments,#network-user-wrapper,section,
 .above-comment,.users-wrapper,#huckster-desktop-wrapper,.huckster-vip-info,.alert.alert-no-data,h4.character,
 .episode-stats.hidden-sm,.btn.btn-block.btn-summary.btn-collect,.btn.btn-block.btn-summary.btn-list,
 .btn.btn-block.btn-summary.btn-comment.new-comment-focus,div.titles,body.settings,#widgets-wrapper,.widget-row.alt,#network-wrapper
@@ -81,6 +81,14 @@ background-color: rgba(34, 34, 34, 0.0) !important;
 #hu-ck-s-t-er-de-sk-top-wrapper{
 display:none !important;
 }
+
+.btn-watch{
+color: white !important;
+background-color: #8e44ad !important;
+}
+
+.tab.selected {
+background: none !important;
 
 `
 GM_addStyle(darkMode);
