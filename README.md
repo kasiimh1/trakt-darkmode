@@ -1,6 +1,6 @@
 # Trakt-DarkMode
 
-# V0.6 
+# V0.7
 
 Fixed: https://github.com/kasiimh1/trakt-darkmode/issues/2 i think? :D
 
