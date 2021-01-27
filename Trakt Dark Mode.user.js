@@ -57,6 +57,10 @@ color: #54C7FC !important;
 background-color: #54C7FC !important;
 }
 
+.progress-bar.spacer,.page.active{
+background-color: rgba(255,255,255,0.5) !important;
+}
+
 .base{
 border:0px !important;
 border-color: #222;
