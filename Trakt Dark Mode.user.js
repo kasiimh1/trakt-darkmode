@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Trakt DarkMode
 // @namespace    https://github.com/kasiimh1
-// @version      0.7
+// @version      0.8
 // @description  Dark themes > light themes, enjoy!
 // @author       Kasim Hussain
 // @match        https://trakt.tv/*
@@ -21,11 +21,11 @@ var darkMode=`
 .btn.btn-block.btn-summary.btn-comment.new-comment-focus,div.titles,body.settings,#widgets-wrapper,.widget-row.alt,#network-wrapper
 {
 color: white !important;
-background-color: #222;
+background-color: #000;
 }
 
-.alert-no-data{
-background-color: #222 !important;
+.alert-no-data,#recent-comments-wrapper :nth-child(1) {
+background-color: #000 !important;
 }
 
 h2.section,span.trakt-icon-time-play,a.titles-link,a.ignore, a.selected,.runtime,.elapsed,
@@ -63,7 +63,7 @@ background-color: rgba(255,255,255,0.5) !important;
 
 .base{
 border:0px !important;
-border-color: #222;
+border-color: #000;
 }
 
 .metadata,.quick-icons.smaller{
@@ -71,7 +71,7 @@ border:0px !important;
 }
 
 .poster{
-border-color: #222 !important;
+border-color: #000 !important;
 }
 
 .username,#text-code,#banner-code,#fanart2-code,#fanart-code,#thumb-code,#poster-code{
