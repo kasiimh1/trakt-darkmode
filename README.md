@@ -1,7 +1,8 @@
 # Trakt-DarkMode
 
-# V0.7
+# V0.8
 
+Fixed: Fixed comments not theming 
 Fixed: https://github.com/kasiimh1/trakt-darkmode/issues/2 i think? :D
 
 Fully functional Dark Mode for Trakt.
