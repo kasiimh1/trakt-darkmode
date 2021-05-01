@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Trakt DarkMode
 // @namespace    https://github.com/kasiimh1
-// @version      0.8
+// @version      0.9
 // @description  Dark themes > light themes, enjoy!
 // @author       Kasim Hussain
 // @match        https://trakt.tv/*
@@ -18,10 +18,10 @@ var darkMode=`
 #rating-items,section.container.list-rows,#user-comments,#network-user-wrapper,section,
 .above-comment,.users-wrapper,#huckster-desktop-wrapper,.huckster-vip-info,.alert.alert-no-data,h4.character,
 .episode-stats.hidden-sm,.btn.btn-block.btn-summary.btn-collect,.btn.btn-block.btn-summary.btn-list,
-.btn.btn-block.btn-summary.btn-comment.new-comment-focus,div.titles,body.settings,#widgets-wrapper,.widget-row.alt,#network-wrapper
+.btn.btn-block.btn-summary.btn-comment.new-comment-focus,div.titles,body.settings,#widgets-wrapper,.widget-row.alt,#network-wrapper,.subnav-wrapper.list-title-wrapper
 {
 color: white !important;
-background-color: #000;
+background-color: #000 !important;
 }
 
 .alert-no-data,#recent-comments-wrapper :nth-child(1) {
