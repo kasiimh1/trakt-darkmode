@@ -86,6 +86,15 @@ background-color: rgba(34, 34, 34, 0.0) !important;
 display:none !important;
 }
 
+#e1a979-d54078-wrapper,
+#e1a979-b6d540-b8aedf-wrapper {
+   display:none;
+}
+
+.snigel-adhesive {
+ display: none;
+}
+
 .btn-watch{
 color: white !important;
 background-color: #8e44ad !important;
